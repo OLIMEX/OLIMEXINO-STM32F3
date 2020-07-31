@@ -1,0 +1,44 @@
+I. Download & install STM32CubeProg:
+	1. Go to: 
+		https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/stm32cubeprog.html
+	2. Click the big button labeled "Get Software" - It must scroll down the web page to this area:
+		STM32CubeProg 	STM32CubeProgrammer software for all STM32  Get Software
+	3. Click on the Get Software button. 
+	4. A zip file download shouold occur. 
+
+	*** IMPORTANT:  The site may asks you for your name and e-mail address.
+					If so, write your email and your names, then check your e-mail.
+					You may receive download link.
+	********************************************************************************* 
+
+	sudo apt install openjdk-11-jre
+	java -version
+
+	5. Unzip the downloaded archive
+	6. Run the "SetupSTM32CubeProgrammer-2.4.0.linux" file (double click on the file, or
+					 open command-line and enter: "./SetupSTM32CubeProgrammer-2.4.0.linux)
+	7. Complete the installation procedure. 
+	
+	Then continue with the second stage.
+
+
+
+II. Arduino 
+1. Main Menu --> File --> Preferences
+
+Additinional Boards Manager URLs: 
+https://raw.githubusercontent.com/stm32duino/BoardManagerFiles/master/STM32/package_stm_index.json
+
+2. Main Menu --> Tools --> Board --> Boards manager...
+От търсачката филтрираме за package "STM32 Cores" --> Install (200MB)
+
+3. Main Menu --> File --> Preferences
+под Additional Boards Manager URLs има линк към пътя където са добавените package-и
+
+4. ..\packages\STM32\hardware\stm32\1.9.0
+Копираме съдържанието на тази папка (board.txt, variants, libraries) в тази на package-а като overwrite-ваме вече съществуващите файлове.
+По този начин ще добавим платката ни в списъка в Arduino (board.txt), описание на платката (variants) и ще редактираме библиотеката за SPI добавяйки 2 нови обекта: SPI_2; SPI_3 (libraries)
+
+5. Рестартираме Arduino средата
+
+

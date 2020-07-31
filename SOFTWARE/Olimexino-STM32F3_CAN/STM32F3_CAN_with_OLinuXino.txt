@@ -1,0 +1,12 @@
+Трябва CAN модула да се инициализира със същите настройки както и STM32F3. На CAN конектора 1 и 2 пин трябва да се кръстосат (H и L са разменени).
+
+Инициализация:
+ip link set can0 down
+ip link set can0 type can bitrate 1000000
+ip link set can0 up
+
+Приемане (отстрана на OLinuXino)
+candump can0
+
+Изпращане (от OLinuXino към STM32)
+cansend can0 103#00.01.02.03.04.05.06.07

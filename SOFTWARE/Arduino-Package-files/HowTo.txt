@@ -1,0 +1,17 @@
+В Arduino:
+1. Main Menu --> File --> Preferences
+
+Additinional Boards Manager URLs: 
+https://raw.githubusercontent.com/stm32duino/BoardManagerFiles/master/STM32/package_stm_index.json
+
+2. Main Menu --> Tools --> Board --> Boards manager...
+От търсачката филтрираме за package "STM32 Cores" --> Install
+
+3. Main Menu --> File --> Preferences
+под Additional Boards Manager URLs има линк към пътя където са добавените package-и
+
+4. ..\packages\STM32\hardware\stm32\1.9.0
+Копираме съдържанието на тази папка (board.txt, variants, libraries) в тази на package-а като overwrite-ваме вече съществуващите файлове.
+По този начин ще добавим платката ни в списъка в Arduino (board.txt), описание на платката (variants) и ще редактираме библиотеката за SPI добавяйки 2 нови обекта: SPI_2; SPI_3 (libraries)
+
+5. Рестартираме Arduino средата
