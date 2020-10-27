@@ -3,7 +3,7 @@ Industrial grade -40+85C Arduino IDE programmable board with STM32F3 Cortex-M4 C
 
 
 
-Product page: https://www.olimex.com/Products/Duino/STM32/OLIMEXINO-STM32F3/open-source-hardware
+Product page: https://www.olimex.com/Products/IoT/ESP32-S2/ESP32-S2-DevKit-Lipo/open-source-hardware
 
 ## Licensee
 * Hardware is released under CERN Open Hardware Licence Version 2 -
