@@ -11,7 +11,7 @@ Fitler from the search box for package "STM32 Cores" --> Install
 under Additional Boards Manager URLs there is a link to the path where are the added packages
 
 4. ..\packages\STM32\hardware\stm32\1.9.0
-Copy the contents of the folder (files board.txt, variants, libraries) in the package and overwrite the exisiting files.
+Copy the contents of this GitHub folder (files board.txt, folder variants, folder libraries) in the package path "..\packages\STM32\hardware\stm32\1.9.0" and overwrite the exisiting files.
 Doing so adds our OLIMEXINO-STM32F3 board in the list of Arduino board selection (board.txt), description of the board (variants) and also in libraries adds two new objects: SPI_2; SPI_3 (libraries)
 
 5. Close and re-open Arduino environment after all the setup is done.
