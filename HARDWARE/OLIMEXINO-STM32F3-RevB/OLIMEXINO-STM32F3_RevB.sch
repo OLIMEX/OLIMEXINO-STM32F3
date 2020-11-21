@@ -3812,8 +3812,6 @@ Text Label 1355 5800 0    50   ~ 0
 D37
 Text Label 2355 5100 0    50   ~ 0
 D24_CANTX
-Text Label 2350 8750 0    50   ~ 0
-D26
 Text Label 2355 5300 0    50   ~ 0
 D28
 Text Label 2355 5200 0    50   ~ 0
