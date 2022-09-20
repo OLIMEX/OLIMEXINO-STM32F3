@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "OLIMEXINO-STM32F3_Rev_C1-rescue")(type "Legacy")(uri "${KIPRJMOD}/OLIMEXINO-STM32F3_Rev_C1-rescue.lib")(options "")(descr ""))
+)

@@ -1,0 +1,22 @@
+Hardware revision changes OLIMEXINO-STM32F3
+
+---
+
+Hardware revision C1
+
+1. R3 changed from 23.7K_1% to 20k/1%/0402;
+2. R7 changed from 10K to 330R/0402;
+3. R8 changed from 20K to 680R/0402;
+4. Added R36(470k/R0402).
+
+---
+
+Hardware revision C
+
+Improved powerjack footprint
+
+---
+
+Hardware revision B
+
+Initial release
