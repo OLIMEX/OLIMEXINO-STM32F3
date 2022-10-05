@@ -16,3 +16,12 @@ make sure to download and install it.
 Start Address at 0x80000000.
 
 Refer to the "1-serial-gd32-allinoneprogrammer.png" picture.
+
+If using the serial bootloader to download the USB bootloader,
+remember to enter UART bootloader mode: press and hold button SW1,
+press and release reset button SW2, release button SW1.
+
+Instructions on how to use the newly downloaded USB DFU bootloder
+can be found here:
+
+https://github.com/OLIMEX/OLIMEXINO-STM32F3/blob/master/SOFTWARE/OLIMEXINO-GD32F3-bootloader-and-demo/Blink-demo/README.txt
