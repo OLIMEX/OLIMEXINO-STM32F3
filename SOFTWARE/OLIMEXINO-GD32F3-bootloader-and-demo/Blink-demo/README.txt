@@ -18,14 +18,14 @@ Expand "Tool & Software" and download "GD32 Dfu Drivers". In the same place you 
 
 After installing the drivers start "GD32 All in One Programmer" (if you haven't already).
 
-Load the binary. Click connect. Start Address at 0x80008000. Be carefull if you use the wrong 
+Load the binary. Click connect. Start Address at 0x80008000. Be careful if you use the wrong 
 address you can overwrite the USB bootloader!!!
 
 Connect the board to the micro USB cable, then set the board in USB DFU mode - this is done 
-by reseting the board with button SW2 and quickly pressing SW1 (while the two LEDs are blinking 
+by resetting the board with button SW2 and quickly pressing SW1 (while the two LEDs are blinking 
 very quickly). You have approximately 2 seconds between reset and pressing SW1 before the 
 board would proceed with the user code exection. If you miss the window to press the button, 
-simply reset again. When succesfully set in USB DFU mode it should be listed as "GD32 Device 
+simply reset again. When successfully set in USB DFU mode it should be listed as "GD32 Device 
 in DFU mode" in your operating system.
 
 Click download.
