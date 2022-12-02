@@ -7,3 +7,5 @@ Folder "Bootloader" contains USB DFU bootloader and instructions
 Folder "Blink-demo" contains blink and button demo binary and instructions
 
 Folder "Sources" contains IAR EW sources for both the bootloader and blink
+
+Folder "Arduno-Blink-32F3" contains Arduino project for blinking LEDs
