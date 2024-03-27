@@ -42,7 +42,7 @@ void setup()
   SERIAL.println ("Welcome!");
 
   Wire.begin ();
-  bme.begin(0x76);
+  bme.begin(0x77);
 }
 
 void loop()
