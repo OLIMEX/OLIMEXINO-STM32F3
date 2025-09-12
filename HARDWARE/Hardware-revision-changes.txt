@@ -2,6 +2,26 @@ Hardware revision changes OLIMEXINO-STM32F3
 
 ---
 
+Hardware revision D
+
+1. Pin<3> of PWR_Jack connected from NC to GND;
+2. VIN pad of the Arduino Shield connected to the input VIN_PWR;
+3. R36(470k/R0402) was changed to 4.7k/1206;
+4. Added D6, BZV55C3V6, to protect the voltage on EN pin;
+5. C4 changed from 100nF/10V/0402 to (0603 100 NF Y5V 50VDC 20%);
+6. C2 changed from 100nF/50V/0805 to (0603 100 NF Y5V 50VDC 20%);
+7. R4 changed from 120R/0402 to 120R/1206;
+8. It added R37, 10K/0402, to ensure FET1's proper operation;
+9. CON1 renamed to CAN1;
+10. CE sign added;
+12. MICRO_SD1 changed from TFC-WPAPR-08 to TFC-09-1.7H(ATFFS150A01BR016); 
+13. CON4's name changed from invisible to visible;
+14. RoHS_Sign added;
+15. CON3's name changed from invisible to visible;
+16. R2 changed from 1.5K/0402 to 10K/0402.
+
+---
+
 Hardware revision C1
 
 1. R3 changed from 23.7K_1% to 20k/1%/0402;
