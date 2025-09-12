@@ -8,7 +8,7 @@ int Time, PrevTime=0;
 void setup()
 {
   pinMode (USER_BTN, INPUT);
-  pinMode (PA1, OUTPUT);
+  pinMode (LED1, OUTPUT);
   pinMode (LED2, OUTPUT);
 }
 
@@ -18,7 +18,7 @@ void loop()
   if (Time >= PrevTime + 1000)
   {
     PrevTime = Time;
-    digitalWrite (PA1, !digitalRead(PA1));
+    digitalWrite (LED1, !digitalRead(LED1));
   }
   digitalWrite (LED2, digitalRead(USER_BTN));
 }
